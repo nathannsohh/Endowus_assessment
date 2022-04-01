@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import react, { Component } from 'react';
 import InitialInput from './components/Inputs/InitialInput';
