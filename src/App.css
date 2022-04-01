@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 960px;
+  display: block;
+  overflow: hidden;
+  position: relative;
 }
 
 .App-logo {
@@ -14,25 +20,67 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
+  min-height: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  align-content: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-top: 1%;
+}
+
+.title {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: black;
+  /* margin-left: 150px;
+  padding-top: 20px; */
+}
+
+.header-text {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: black;
+  /* margin-left: 150px; */
+  font-weight: 500;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-div {
+  display: table;
+  width: auto;
+}
+
+.main-chart-div {
+  align-content: center;
+  display: block;
+  margin: 2%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.overlay {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  opacity: 0.5;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.spinner {
+  position: relative;
+  left: 50%;
+  top: 50%;
 }

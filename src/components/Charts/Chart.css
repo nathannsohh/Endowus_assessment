@@ -1,0 +1,93 @@
+.chart-div {
+  /* margin-top: 80px;
+  margin-left: 500px; */
+  margin-left: 15%;
+  margin-top: 6%;
+}
+
+.crosshair-container {
+  height: auto;
+  width: 275px;
+  border: 1px;
+  border-color: lightgray;
+  border-style: solid;
+  opacity: 1;
+  background-color: white;
+  border-radius: 3%;
+}
+
+.crosshair-title {
+  text-align: left;
+  color: black;
+  margin-left: 15px;
+  font-size: 17px;
+  padding-bottom: 4px;
+  font-weight: light;
+}
+
+.crosshair-second-header {
+  text-align: center;
+  color: gray;
+  margin-top: 0;
+  font-size: 13px;
+}
+
+.lightblue-dot {
+  height: 9px;
+  width: 9px;
+  background-color: lightblue;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.blue-dot {
+  height: 9px;
+  width: 9px;
+  background-color: #367af6;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.orange-dot {
+  height: 9px;
+  width: 9px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.black-dot {
+  height: 9px;
+  width: 9px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.grey-left-text {
+  text-align: left;
+  color: gray;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.grey-right-text {
+  float: right;
+  color: gray;
+  margin-right: 10px;
+}
+
+.blue-left-text {
+  text-align: left;
+  color: #367af6;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.blue-right-text {
+  float: right;
+  color: #367af6;
+  margin-right: 10px;
+}
