@@ -6,8 +6,6 @@ The following repo consists of the features and UI as required from the document
 
 # Getting Started
 
-<<<<<<< HEAD
-
 ### 1. Install Dependencies
 
 ```
