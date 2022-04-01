@@ -20,6 +20,18 @@ $ npm start
 # Technology
 This single page application was implemented with ReactJS.
 
+# Requirements
+1. Provide UI for user to enter two input parameters: Initial Investment and Monthly Investment
+2. Fetch investment project data from the mocky.io API
+3. Display a project chart where the X-axis indicates the date and Y-axis the amount in SGD
+4. Display five line series that convey:
+  a) Top 25% outcome of investment projection
+  b) Median outcome of investment projection
+  c) Bottom 10% outcome of investment projection
+  d) Benchmark
+  e) Total Deposit
+5. Loading state UI while the API is loading
+
 # Components
 ### 1. Button
 ![image](https://user-images.githubusercontent.com/70202012/161290129-d9fc6d6e-7477-467e-8348-61a8f22f4092.png)
@@ -43,15 +55,3 @@ A loading state UI was created using a third-party library known as React-loadin
 
 ### 5. App
 The main layout was build here and the different components built earlier are used to create the overall application. As the loading state UI and chart will not always be on the application, boolean flags were used to control when the chart will be generated and when the loading state UI will appear. 
-
-# Requirements
-1. Provide UI for user to enter two input parameters: Initial Investment and Monthly Investment
-2. Fetch investment project data from the mocky.io API
-3. Display a project chart where the X-axis indicates the date and Y-axis the amount in SGD
-4. Display five line series that convey:
-  a) Top 25% outcome of investment projection
-  b) Median outcome of investment projection
-  c) Bottom 10% outcome of investment projection
-  d) Benchmark
-  e) Total Deposit
-5. Loading state UI while the API is loading
