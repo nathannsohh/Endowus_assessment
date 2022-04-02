@@ -2,7 +2,7 @@
 
 The following repo consists of the features and UI as required from the document specification.
 
-![image](https://user-images.githubusercontent.com/70202012/161287448-b731bbae-2ab3-4ed5-90f5-2fd637576b52.png)
+![image](https://user-images.githubusercontent.com/70202012/161370136-b8172020-e243-49a1-ab86-41e17710f7a3.png)
 
 # Getting Started
 
@@ -46,7 +46,7 @@ When clicked, the button component would take the initial investment and monthly
 
 ### 2. Input
 
-![image](https://user-images.githubusercontent.com/70202012/161290367-1c8a9910-68e5-4694-a0d8-789800849520.png)
+![image](https://user-images.githubusercontent.com/70202012/161370110-74d42e44-602f-4d02-93a7-7db205348bce.png)
 
 The input fields were made such that on change, they would send the data in their fields to the main app, updating the state of the main app.
 
