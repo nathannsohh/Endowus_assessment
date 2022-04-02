@@ -14,7 +14,7 @@ class InitialInput extends Component {
             <div className='input-div'>
                 <label for="initial" className="label-text"> Initial Investment:</label>
                 <br></br>
-                <input className='input-box' onChange={this.onChange} name="initial" type="number" />
+                <input className='input-box' onChange={this.onChange} name="initial"  placeholder="$0" />
             </div>
         )
     }

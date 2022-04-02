@@ -14,7 +14,7 @@ class MonthlyInput extends Component {
             <div className="input-div">
                 <label for="monthly" className="label-text"> Monthly Investment:</label>
                 <br></br>
-                <input className="input-box" onChange={this.onChange} name="monthly" type="number"/>
+                <input className="input-box" onChange={this.onChange} name="monthly" type="number" placeholder="$0"/>
                 <br/>
                 <text>Recommended: <text style={{color: "#367af6", fontWeight: "bold"}}>$1,140</text></text>
             </div>
