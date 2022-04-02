@@ -87,7 +87,7 @@ class Chart extends Component {
                 <YAxis
                     tickValues={[0, 500000, 1000000, 1500000, 2000000, 2500000, 3000000,3500000,4000000,4500000]}
                     tickFormat={(v) => {
-                        if(v==0) return `$${v}`;
+                        if(v===0) return `$${v}`;
                         else if(v < 1000000) return `$${v/1000}k`
                         else return `$${v/1000000}m`
                     }}

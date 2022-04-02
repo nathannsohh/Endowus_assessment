@@ -1,5 +1,5 @@
-import React , { Component, createRef } from "react";
-import style from './Input.css';
+import React , { Component } from "react";
+import './Input.css';
 
 class InitialInput extends Component {
 

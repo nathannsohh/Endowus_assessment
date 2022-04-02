@@ -1,6 +1,5 @@
 .button-div {
   display: table-cell;
-  /* margin-top: 20px; */
   text-align: center;
   vertical-align: middle;
   width: 100%;
@@ -16,7 +15,6 @@
   font-size: 18px;
   margin-left: 80%;
   margin-top: 10%;
-  /* width: 200px; */
 
   color: #fff;
   background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);

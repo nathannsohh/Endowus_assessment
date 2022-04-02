@@ -1,10 +1,12 @@
 import './App.css';
-import react, { Component } from 'react';
+import React, { Component } from 'react';
 import InitialInput from './components/Inputs/InitialInput';
 import MonthlyInput from './components/Inputs/MonthlyInput';
 import Button from './components/Buttons/Button';
 import Chart from './components/Charts/Chart';
 import Loading from './components/Loading/Loading'
+
+const API = 'https://www.mocky.io/v2/5e69de892d00007a005f9e29?mocky-delay=2000ms';
 
 class App extends Component { 
 
@@ -39,7 +41,7 @@ class App extends Component {
     const monthlyInvest = this.state.monthlyDeposit;
 
     this.setState({ loading: true });
-    const res = await fetch('https://www.mocky.io/v2/5e69de892d00007a005f9e29?mocky-delay=2000ms', {
+    const res = await fetch(API, {
         method: 'POST',
         body: {
             "initialInvestment": initialInvest,
